@@ -73,7 +73,3 @@ from datetime import datetime, timedelta
 import seaborn as sns  
 import matplotlib.pyplot as plt  
 from fpdf import FPDF, XPos, YPos  
-
-
-
-This should be ready for direct copying into your LaTeX document or README with LaTeX-style formatting. Let me know if there are further adjustments you need!
