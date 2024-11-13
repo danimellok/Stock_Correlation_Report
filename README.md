@@ -18,6 +18,10 @@ Download the project files to your computer by running the following commands in
 2. Click on the "Code" button, then select "Download ZIP."
 3. Extract the ZIP file and navigate to the project folder.
 
+'''''''
+git clone <repository-url> cd <repository-directory>
+'''''''
+
 ### 2. Install Required Packages
 
 To ensure the project runs smoothly, install the necessary libraries. You can do this with one command:
@@ -28,7 +32,9 @@ To ensure the project runs smoothly, install the necessary libraries. You can do
 
    In your terminal, make sure you’re in the project directory (where the `requirements.txt` file is located), and run:
 
-
+'''''''
+pip install -r requirements.txt
+''''''
 
 This command will automatically install all necessary packages listed in `requirements.txt`, including:  
 - `yfinance`  
@@ -42,24 +48,37 @@ If you encounter an error about `pip` not being installed, follow these steps to
 
 1. Download the `get-pip.py` script by running this command:
 
-
+''''''
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+''''''
 
 2. Run the script to install `pip`:
 
-
+''''''
+python3 get-pip.py
+''''''
 
 3. Verify that `pip` installed correctly by checking its version:
 
+''''''
+pip --version
+''''''
 
 
 4. Now you can install the required packages using `pip`:
 
+''''''
+pip install -r requirements.txt
+''''''
 
 
 ### 4. Running the Code
 
 Once all the libraries are installed, you’re ready to run the project. Use the following command to start the program:
 
+'''''
+python3 ibovcorrelationcheck_v2.py
+'''''
 
 
 ### Imports in the Code (For Reference)
